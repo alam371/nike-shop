@@ -1,9 +1,35 @@
-@import "components/header";
-@import "components/footer";
+$primary: #f5f4f4;
+$secondary: #2f87fd;
+$tertiary:#202020;
+$baseFont: 'Playfair Display', serif;
+$secondaryFont: 'Poppins', sans-serif;
+$tertiaryFont: 'Source Sans Pro', sans-serif;
 
-body{
-  background: red;
+@import "components/setup";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/variables";
+
+html{
+  font-size: 62.5%;
 }
+
+img{
+  width: 100%;
+  // display: block;
+}
+
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+// @mixin primaryButton($primaryButton) {
+//     font-size: $sizeValue;
+//     color: blue;
+//     font-weight: bold;
+// }
 
 // MAKE THE PARTIAL
 // SAVE THE PARTIAL

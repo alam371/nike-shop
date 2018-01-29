@@ -1,4 +1,157 @@
 footer{
-  background: green;
-  width: 100%;
+      background: $tertiary;
+      position: relative;
+}
+.footerContainer{
+      display: flex;
+}
+.footerCompanyInfoBox{
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+}
+
+.footerCompanyLogoBox{
+      display: flex;   
+}
+
+.footerCompanyLogo{
+      display: flex;
+}
+
+.footerFocusBox{
+      display: flex;
+}
+
+.footerSocialMedia{
+      display: flex;
+      justify-content: flex-end;
+}
+
+.footerSocialBar{
+      display: flex;
+}
+
+//  FOOTER COMPANY INFO BOX STYLE ===
+.footerCompanyLogo img{
+      width: 40px;
+      height: 40px; 
+}
+
+.footerCompanyLogo h2{
+  font-family: $baseFont;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.footerCompanyLogo span{
+  color: $secondary;
+}
+
+.footerCompanyLogo h3{
+  font-family: $tertiaryFont;
+  font-size: 16px;
+  color: $primary;
+}
+
+.footerCompanyLogo p{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $primary;
+}
+
+.footerCompanyLogo p{
+      font-family: $secondaryFont;
+      font-size: 15px;
+      color: $secondary;
+}
+// FOOTER FOCUS BOX STYLE ====
+.footerFocusBox p{
+      font-family: $secondaryFont;
+      font-size: 18px;
+      color:  #ffffff;
+}
+
+.footerFocusNav ul li{
+      list-style: none;
+}
+
+.footerFocusNav ul a{
+      color: $primary;
+      font-size: 16px;
+      font-family: $tertiaryFont;
+      text-decoration: none;
+}
+// FOOTER NEWS BOX ===
+.footerNewsTitle p{
+      font-family: $secondaryFont;
+      font-size: 18px;
+      color:  #ffffff; 
+}
+.footerNewsBox p{
+      font-family: $secondaryFont;
+      font-size: 18px;
+      color:  #ffffff; 
+}
+.footerNewsText p{
+      font-family: $secondaryFont;
+      font-size: 15px;
+      color: $secondary;
+}
+
+.footerNewsText h4{
+      font-family: $tertiaryFont;
+      font-size: 15px;
+      color: $primary;
+}
+
+button.footerButton{
+      color: $secondary;
+      background: $tertiary;
+      border: 1px solid $tertiary;
+      font-size: 15px;
+}
+
+i.footerArrow{
+      font-size: 12px;
+      color: #ffffff;
+}
+// FOOTER SOCIAL MEDIA BOX STYLE ===
+.footerSocialBar i.footerIcon{
+      font-size: 20px;
+      color: $primary;
+      padding: 4%;
+}
+
+// FOOTER DISPLAY CONTAINER STYLE ===
+.footerDisplayBarContainer{
+      background: #313030;
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      top: -20px;
+      left: 135px;
+      width: 100%;
+      box-shadow: 0px 20px #424141;
+}
+
+.footerContactBox{
+      display: flex;
+      align-items: center;
+}
+
+.footerContactItems{
+      display: flex;
+}
+
+.footerContactItems img{
+      width: 25px;
+      height: 30px;
+}
+
+.footerContactInfo p{
+      font-family: $secondaryFont;
+      font-size: 15px;
+      color: #ffffff;
+      padding-left: 15px;
 }

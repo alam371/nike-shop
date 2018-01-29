@@ -1,0 +1,354 @@
+// COMPANY CONTENT STYLES ===
+.companyContentBox.leftSide{
+      float: left;
+      width: 60%;
+}
+
+.companyContentBox.rightSide{
+      float: left;
+      width: 40%;
+}
+.companyContentContainer{
+      position: relative;
+}
+.companyContentCircle img{
+      width: 190px;
+      height: 280px;
+      position: absolute;
+      top: 0;
+      // left: 10;
+      z-index: 1;
+}
+.companyContentBox p{
+      font-family: $baseFont;
+      font-size: 20px;
+      color: $secondary;
+}
+
+.companyContentBox h2{
+      font-family: $baseFont;
+      font-size: 45px;
+      color: $tertiary;
+}
+
+.companyContentBox h3{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+
+}
+
+p.companyContentTitle{
+      font-family: $baseFont;
+      font-size: 18px;
+      color: $tertiary;
+}
+
+button.secondaryButton{
+      width: 215px;
+      height: 52px;
+      color: $secondary;
+      background: $primary;
+      border: 1px solid $primary;
+      font-size: 18px;
+}
+
+i.secondaryArrow{
+      font-size: 25px;
+      color: $tertiary;
+}
+// SERVICE CONTAINER STYLE ===
+section.serviceContainer{
+      width: 100%;
+      background: $primary;
+}
+// MOTO CONTAINER STYLE ===
+section.mottoBox{
+      max-width: 370px;
+      max-height: 360px;
+}
+.mottoBox p{
+      font-family: $baseFont;
+      font-size: 20px;
+      color: $tertiary;
+     margin: 0;
+}
+
+.mottoBox h2{
+      font-family: $baseFont;
+      font-size: 50px;
+      color: $secondary;
+      margin: 0;
+}
+
+.mottoBox p.bigCapital{
+      font-family: $baseFont;
+      font-size: 275px;
+      // color: #ffffff;
+      color: red;
+      margin: 0;
+}
+// SERVICE GALLERY BOX STYLE ===
+.serviceGalleryContainer{
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 150px;
+}
+
+.serviceGalleryBox{
+      background: #ffffff;
+      width: 30%;
+      padding: 40px;
+      min-height: 30%;
+      margin: 1%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+}
+
+.serviceGalleryItems{
+      flex: display;
+}
+
+.serviceGalleryBox img{
+      width: 50px;
+      height: 50px;
+}
+
+.serviceGalleryBox h4{
+      font-family: $tertiaryFont;
+      font-size: 22px;
+      color: $tertiary;
+      text-align: center;
+}
+
+.serviceGalleryBox p{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $tertiary;
+      text-align: center;
+}
+// SERVICE CONTENT CONTAINER ===
+.serviceContentBox.leftSide{
+      width: 60%;
+      float: left;
+      padding-top: 160px;
+      padding-right: 40px;
+}
+.serviceContentBox.rightSide{
+      width: 40%;
+      float: left;
+      padding-top: 165px;
+}
+
+.serviceContentBox.leftSide h2{
+      font-family: $baseFont;
+      font-size: 45px;
+      color: $tertiary;
+}
+
+p.serviceTextColor{
+      font-family: $secondaryFont;
+      font-size: 18px;
+      color: $secondary;
+}
+
+p.serviceContentColor{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $tertiary;
+}
+// CONSULTING GALLERY CONTAINER ===
+.consultingGalleryContainer{
+      display: flex;
+}
+.consultingGalleryBox{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+}
+
+.consultingGalleryItems{
+      display: flex;
+}
+
+.consultingGalleryBox img{
+      width: 40px;
+      height: 40px;
+}
+
+.consultingGalleryBox h4{
+      font-family: $tertiaryFont;
+      font-size: 18px;
+      color: $tertiary;
+}
+
+// .consultingGalleryBox h4:hover,
+// .consultingGalleryBox h4:focus{
+//       color: $secondary;
+// }
+
+.consultingGalleryBox p{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $tertiary;
+}
+// DATA GALLERY STYLE ===
+section.dataGalleryContainer{
+      background: $tertiary;
+      display: flex;
+      justify-content: space-between;
+}
+
+.dataGalleryBox{
+      width: 23%;
+      margin: 2%;
+      display: flex;
+}
+
+.dataGalleryItems{
+      flex-direction: column;
+}
+.dataGalleryBox img{
+      width: 50px;
+      height: 50px;
+}
+
+.dataGalleryBox h4{
+      font-family: $tertiaryFont;
+      font-size: 22px;
+      color: #ffffff;
+}
+
+.dataGalleryBox p{
+      font-family: $secondaryFont;
+      font-weight: 700;
+      font-size: 40px;
+      color: $secondary;
+}
+// MOTTON CONTAINER STYLING ===
+// MOTTO TEXT CONTAINER STYLING ===
+.mottoTextItems.leftSide{
+      float: left;
+      width: 80%;
+}
+.mottoTextItems.rightSide{
+      float: right;
+      width: 20%;
+}
+
+.mottoTextContainer p{
+      font-family: $secondaryFont;
+      font-size: 20px;
+      color: $tertiary;
+}
+
+button.thirdButton{
+      color: $secondary;
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      font-size: 16px;
+}
+
+i.thirdArrow{
+      font-size: 16px;
+      color: $secondary;
+}
+// PROJECT GALLERY STYLE ===
+.projectGalleryContainer{
+      display: flex;
+}
+
+.projectGalleryBox{
+      width: 30%;
+      margin: 1%;
+      display: flex;
+}
+// CONSULTANT CONTAINER STYLE ===
+section.consultantContainer{
+      background: $secondary;
+}
+
+.consultantBox.leftSide{
+      float: left;
+      width: 30%;
+}
+
+.consultantBox.rightSide{
+      float: left;
+      width: 70%;
+}
+.consultantBox p{
+      font-family: $secondaryFont;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+}
+
+.consultantBox h3{
+      font-family: $secondaryFont;
+      font-size: 22px;
+      color: #ffffff;
+      text-align: center;
+}
+
+.consultantBox h4{
+      font-family: $secondaryFont;
+      font-size: 16px;
+      color: #ffffff;
+      text-align: center;
+}
+
+.consultantBoxSlider{
+      width: 25px;
+      height: 15px;
+      background: #ffffff;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 2px;
+}
+// RESULT GALLERY CONTAINER STYLE ===
+.resultGalleryContainer{
+      display: flex;
+}
+.resultGalleryBox{
+      width: 33.33%;
+      padding: 1%;
+}
+
+.resultGalleryContent p{
+      font-family: $secondaryFont;
+      font-size: 18px;
+      color: $secondary;
+}
+
+.resultGalleryContent h4{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $tertiary;
+}
+
+.resultGalleryContent h5{
+      font-family: $tertiaryFont;
+      font-size: 16px;
+      color: $secondary;
+}
+// CLIENT CONTAINER STYLE ===
+.clientContainer{
+      display: flex;
+      justify-content: space-between;
+}
+
+.clientBox{
+      padding-top: 110px;
+      padding-bottom: 140px; 
+      display: flex;
+}
+section.clientPartners{
+      background: $secondary;
+}
+
+.clientBox img{
+      width: 195px;
+      height: 50px;
+}
