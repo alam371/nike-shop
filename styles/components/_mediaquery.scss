@@ -1,11 +1,83 @@
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+     .wrapper{
+          width: 90%;
+     }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+     .wrapper{
+          width: 90%;
+     }
+     .headerContactBox{
+          flex-wrap: wrap;
+     }
+     .headerImageText h1{
+          font-size: 16px;
+     }
+     .headerImageText p{
+          font-size: 10px;
+     }
+     button.primaryButton{
+          width: 150px;
+          height: 25px;
+          font-size: 10px;
+     }
+     i.primaryArrow{
+          font-size: 10px;
+          top: 0px;
+     }
+     .companyContentBox.leftSide{
+          width: calc(100% - 4%);
+     }
+     .companyContentBox.rightSide{
+          width: 100%;
+     }
+     .serviceGalleryBox{
+          width: 100%;
+     }
+     .serviceContentBox.leftSide{
+          width: 100%;
+     }
+     .serviceContentBox.rightSide{
+          width: 100%;
+     }
+     .consultingGalleryBox{
+          width: 100%;
+     }
+     .consultantBox.leftSide{
+          width: 100%;
+     }
+     .consultantBox.rightSide{
+          width: 100%;
+     }
+     section.dataGalleryContainer{
+          width: 100%;
+     }
+     .projectGalleryContainer{
+          width: 100%;
+     }
+     .mottoTextItems.leftSide{
+          width: 100%;
+     }
+     .mottoTextItems.rightSide{
+          width: 100%;
+     }
+     .resultGalleryBox{
+          width: 100%;
+     }
+     .clientBox{
+          width: 100%;
+          justify-content: center;
+     }
+     .footerCompanyInfoBox{
+          width: 100%;
+     }
+
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
 }

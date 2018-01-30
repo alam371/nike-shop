@@ -87,21 +87,21 @@ section.mottoContainer{
       font-family: $baseFont;
       font-size: 20px;
       color: $tertiary;
-      margin: 0;
       text-align: center;
       margin-top: 100px;
       z-index: 100;
       position: relative;
+      top: 113px;
 }
 
 .mottoBox h2{
       font-family: $baseFont;
       font-size: 50px;
       color: $secondary;
-      margin: 0;
       text-align: center;
       position: relative;
       z-index: 50;
+      margin-top: 108px;
 }
 .mottoBox h2::after{
       content: "";
@@ -238,6 +238,7 @@ p.serviceContentColor{
 .consultingGalleryContainer{
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
 }
 .consultingGalleryBox{
       border: 1px solid $primary;
@@ -281,6 +282,7 @@ section.dataGalleryContainer{
       display: flex;
       justify-content: space-between;
       margin-top: 200px;
+      flex-wrap: wrap;
 }
 
 .dataGalleryBox{
@@ -343,6 +345,7 @@ i.thirdArrow{
 // PROJECT GALLERY STYLE ===
 .projectGalleryContainer{
       display: flex;
+      flex-wrap: wrap;
 }
 
 .projectGalleryBox{
@@ -406,6 +409,7 @@ section.consultantContainer{
 // RESULT GALLERY CONTAINER STYLE ===
 .resultGalleryContainer{
       display: flex;
+      flex-wrap: wrap;
 }
 .resultGalleryBox{
       width: 33.33%;
@@ -436,6 +440,7 @@ section.consultantContainer{
 .clientContainer{
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
 }
 
 .clientBox{

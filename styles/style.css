@@ -572,20 +572,20 @@ section.mottoContainer {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   color: #202020;
-  margin: 0;
   text-align: center;
   margin-top: 100px;
   z-index: 100;
-  position: relative; }
+  position: relative;
+  top: 113px; }
 
 .mottoBox h2 {
   font-family: "Playfair Display", serif;
   font-size: 50px;
   color: #2f87fd;
-  margin: 0;
   text-align: center;
   position: relative;
-  z-index: 50; }
+  z-index: 50;
+  margin-top: 108px; }
 
 .mottoBox h2::after {
   content: "";
@@ -725,7 +725,9 @@ p.serviceContentColor {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .consultingGalleryBox {
   border: 1px solid #f5f4f4;
@@ -778,7 +780,9 @@ section.dataGalleryContainer {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 200px; }
+  margin-top: 200px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .dataGalleryBox {
   border: 1px solid #37393b;
@@ -837,7 +841,9 @@ i.thirdArrow {
 .projectGalleryContainer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .projectGalleryBox {
   width: 30%;
@@ -895,7 +901,9 @@ section.consultantContainer {
 .resultGalleryContainer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .resultGalleryBox {
   width: 33.33%;
@@ -925,7 +933,9 @@ section.consultantContainer {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .clientBox {
   padding-top: 110px;
@@ -960,7 +970,10 @@ footer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-bottom: 100px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .footerCompanyLogoBox {
   display: -webkit-box;
@@ -989,15 +1002,16 @@ footer {
 .footerSocialMedia {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
+  display: flex; }
 
 .footerSocialBar {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 60px; }
 
 .footerCompanyLogo img {
   width: 40px;
@@ -1115,13 +1129,10 @@ i.footerArrow {
   font-size: 12px;
   color: #ffffff; }
 
-.footerSocialBar {
-  margin-top: 40px; }
-
 .footerSocialBar i.footerIcon {
-  font-size: 30px;
-  color: #f5f4f4;
-  padding: 4%; }
+  font-size: 20px;
+  color: #ffffff;
+  padding: 1%; }
 
 .footerDisplayBarContainer {
   background: #313030;
@@ -1161,7 +1172,62 @@ i.footerArrow {
   padding-left: 15px; }
 
 /* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .wrapper {
+    width: 90%; } }
+
 /* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%; }
+  .headerContactBox {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .headerImageText h1 {
+    font-size: 16px; }
+  .headerImageText p {
+    font-size: 10px; }
+  button.primaryButton {
+    width: 150px;
+    height: 25px;
+    font-size: 10px; }
+  i.primaryArrow {
+    font-size: 10px;
+    top: 0px; }
+  .companyContentBox.leftSide {
+    width: calc(100% - 4%); }
+  .companyContentBox.rightSide {
+    width: 100%; }
+  .serviceGalleryBox {
+    width: 100%; }
+  .serviceContentBox.leftSide {
+    width: 100%; }
+  .serviceContentBox.rightSide {
+    width: 100%; }
+  .consultingGalleryBox {
+    width: 100%; }
+  .consultantBox.leftSide {
+    width: 100%; }
+  .consultantBox.rightSide {
+    width: 100%; }
+  section.dataGalleryContainer {
+    width: 100%; }
+  .projectGalleryContainer {
+    width: 100%; }
+  .mottoTextItems.leftSide {
+    width: 100%; }
+  .mottoTextItems.rightSide {
+    width: 100%; }
+  .resultGalleryBox {
+    width: 100%; }
+  .clientBox {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .footerCompanyInfoBox {
+    width: 100%; } }
+
 /* Landscape phones and down */
 html {
   font-size: 62.5%; }
