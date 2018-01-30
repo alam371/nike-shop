@@ -10,6 +10,7 @@ $tertiaryFont: 'Source Sans Pro', sans-serif;
 @import "components/main";
 @import "components/footer";
 @import "components/variables";
+@import "components/_mediaquery";
 
 html{
   font-size: 62.5%;
@@ -23,7 +24,19 @@ img{
 .wrapper{
   max-width: 1170px;
   margin: 0 auto;
+  width: 90%;
 }
+
+// .nav {
+//   ...
+//   ..
+// }
+
+// @mixin (max-width: 700pc) {
+//   .nav {
+    
+//   }
+// }
 
 // @mixin primaryButton($primaryButton) {
 //     font-size: $sizeValue;

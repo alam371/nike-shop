@@ -65,15 +65,43 @@ footer{
 }
 
 .footerCompanyLogo p{
-      font-family: $tertiaryFont;
-      font-size: 16px;
-      color: $primary;
-}
-
-.footerCompanyLogo p{
       font-family: $secondaryFont;
       font-size: 15px;
+      color: #ffffff;
+}
+
+button.footerEmailButton{
+       font-size: 16px;
+      width: 95px;
+      height: 50px;
       color: $secondary;
+      background: $secondary;
+      border: 1px solid $secondary;
+      border-radius: 25px;
+      position: absolute;
+      top: 388px;
+      left: 420px;
+}
+
+i.footerEmailArrow{
+      font-size: 18px;
+      color: #ffffff;
+}
+
+input[type="text"] {
+      width: 350px;
+      height: 50px;
+      background: #424141;
+      border: 1px solid #424141;
+      padding-left: 40px;
+      font-size: 16px;
+      font-family: $tertiaryFont;
+      position: relative;
+}
+
+input[placeholder="Your email"]{
+      font-family: $tertiaryFont;
+      color: #ffffff;
 }
 // FOOTER FOCUS BOX STYLE ====
 .footerCompanyInfoBox{

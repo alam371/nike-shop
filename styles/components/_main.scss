@@ -78,11 +78,11 @@ section.serviceContainer{
 }
 // MOTO CONTAINER STYLE ===
 section.mottoContainer{
-      border: 1px solid red;
       max-width: 370px;
       min-height: 310px;
       position: relative;
 }
+
 .mottoBox p{
       font-family: $baseFont;
       font-size: 20px;
@@ -90,7 +90,8 @@ section.mottoContainer{
       margin: 0;
       text-align: center;
       margin-top: 100px;
-      z-index: 15;
+      z-index: 100;
+      position: relative;
 }
 
 .mottoBox h2{
@@ -100,7 +101,7 @@ section.mottoContainer{
       margin: 0;
       text-align: center;
       position: relative;
-      z-index: 20;
+      z-index: 50;
 }
 .mottoBox h2::after{
       content: "";
@@ -121,7 +122,7 @@ section.mottoContainer{
       position: absolute;
       top: 0px;
       left: 110px;
-      z-index: 5;
+      z-index: 10;
 }
 
 .mottoBox p.bigCapitalP{
@@ -163,6 +164,9 @@ section.mottoContainer{
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      margin-bottom: 40px;
+      line-height: 2;
+      // flex: 1 0 390px;
 }
 
 .serviceGalleryItems{

@@ -564,7 +564,6 @@ section.serviceContainer {
   background-repeat: no-repeat; }
 
 section.mottoContainer {
-  border: 1px solid red;
   max-width: 370px;
   min-height: 310px;
   position: relative; }
@@ -576,7 +575,8 @@ section.mottoContainer {
   margin: 0;
   text-align: center;
   margin-top: 100px;
-  z-index: 15; }
+  z-index: 100;
+  position: relative; }
 
 .mottoBox h2 {
   font-family: "Playfair Display", serif;
@@ -585,7 +585,7 @@ section.mottoContainer {
   margin: 0;
   text-align: center;
   position: relative;
-  z-index: 20; }
+  z-index: 50; }
 
 .mottoBox h2::after {
   content: "";
@@ -605,7 +605,7 @@ section.mottoContainer {
   position: absolute;
   top: 0px;
   left: 110px;
-  z-index: 5; }
+  z-index: 10; }
 
 .mottoBox p.bigCapitalP {
   font-family: "Playfair Display", serif;
@@ -653,7 +653,9 @@ section.mottoContainer {
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 40px;
+  line-height: 2; }
 
 .serviceGalleryItems {
   -webkit-box-flex: display;
@@ -1019,14 +1021,39 @@ footer {
   margin-left: 10px; }
 
 .footerCompanyLogo p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  color: #f5f4f4; }
-
-.footerCompanyLogo p {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  color: #2f87fd; }
+  color: #ffffff; }
+
+button.footerEmailButton {
+  font-size: 16px;
+  width: 95px;
+  height: 50px;
+  color: #2f87fd;
+  background: #2f87fd;
+  border: 1px solid #2f87fd;
+  border-radius: 25px;
+  position: absolute;
+  top: 388px;
+  left: 420px; }
+
+i.footerEmailArrow {
+  font-size: 18px;
+  color: #ffffff; }
+
+input[type="text"] {
+  width: 350px;
+  height: 50px;
+  background: #424141;
+  border: 1px solid #424141;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative; }
+
+input[placeholder="Your email"] {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff; }
 
 .footerCompanyInfoBox {
   display: -webkit-box;
@@ -1133,6 +1160,9 @@ i.footerArrow {
   color: #ffffff;
   padding-left: 15px; }
 
+/* Portrait tablet and small desktops */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
 html {
   font-size: 62.5%; }
 
@@ -1141,4 +1171,5 @@ img {
 
 .wrapper {
   max-width: 1170px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 90%; }
