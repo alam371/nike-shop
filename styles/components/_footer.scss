@@ -6,16 +6,22 @@ footer{
       display: flex;
 }
 .footerCompanyInfoBox{
-      margin-top: 200px;
+      margin-top: 150px;
       display: flex;
+       width: 33.33%;
       flex-direction: column;
 }
 
 .footerCompanyLogoBox{
-      display: flex;   
+      display: flex;
 }
 
 .footerCompanyLogo{
+      display: flex;
+      flex-direction: column;
+}
+
+.footerCompanyWidget{
       display: flex;
 }
 
@@ -42,6 +48,8 @@ footer{
   font-family: $baseFont;
   font-size: 32px;
   color: #ffffff;
+  margin: 0;
+  margin-left: 10px;
 }
 
 .footerCompanyLogo span{
@@ -52,6 +60,8 @@ footer{
   font-family: $tertiaryFont;
   font-size: 16px;
   color: $primary;
+  margin: 0;
+  margin-left: 10px;
 }
 
 .footerCompanyLogo p{
@@ -66,10 +76,24 @@ footer{
       color: $secondary;
 }
 // FOOTER FOCUS BOX STYLE ====
+.footerCompanyInfoBox{
+      display: flex;
+}
+
+.footerFocusBox{
+      display: flex;
+      align-self: flex-start;
+      padding-left: 60px;
+}
+
 .footerFocusBox p{
       font-family: $secondaryFont;
       font-size: 18px;
       color:  #ffffff;
+}
+
+.footerFocusNav ul{
+   padding: 0;   
 }
 
 .footerFocusNav ul li{
@@ -117,8 +141,11 @@ i.footerArrow{
       color: #ffffff;
 }
 // FOOTER SOCIAL MEDIA BOX STYLE ===
+.footerSocialBar{
+      margin-top: 40px;
+}
 .footerSocialBar i.footerIcon{
-      font-size: 20px;
+      font-size: 30px;
       color: $primary;
       padding: 4%;
 }

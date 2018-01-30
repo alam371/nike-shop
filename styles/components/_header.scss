@@ -32,6 +32,12 @@
 
 .headerContactBox{
   display: flex;
+  align-items: center;
+}
+
+.headerContactPhone{
+  display: flex;
+  justify-content: flex-start;
 }
 
 .headerContactFB{
@@ -42,9 +48,25 @@
 
 .headerContactPhone{
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerContactItem{
+  display: flex;
 }
 
 .headerContactMail{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.headerContactEmail{
+  display: flex;
+}
+
+.contactLang{
   display: flex;
 }
 
@@ -56,6 +78,14 @@
 .headerContactBox p{
   font-family: $tertiaryFont;
   font-size: 16px;
+}
+
+p.headerContactItem{
+  padding: 5px;
+}
+
+p.headerContactEmail{
+  padding: 5px;
 }
 
 .headerContactNav{
@@ -70,7 +100,7 @@
 }
 // LANGUAGE NAV STYLE ===
 .headerLangList{
-  background: darkgreen;
+  background: $primary;
   margin: 0;
   padding: 0;
 }
@@ -83,7 +113,7 @@
 
 .headerLangList span{
   font-size: 14px;
-  color: lightblue;
+  color: $secondary;
 }
 
 .headerLangList li a{
@@ -99,12 +129,18 @@
   background-color: silver;
 }
 
-.headerLangList li:hover ul.headerLanglist{
-   display:block;
+.headerLangList li:hover ul.subMenu{
+   display: block;
+   font-family: $tertiaryFont;
+   font-size: 16px;
+   color: $tertiary;
+   background: $secondary;
+   text-align: center;
+   padding: 10px 20px;
 }
 
 ul.subMenu {
-  background: dimgray;
+  background: $primary;
   color: white;
   display: none;
   position: absolute;
@@ -119,9 +155,9 @@ ul.subMenu li{
 }
 
 ul.subMenu li:hover{
-      background-color: gray;
+      background-color: $secondary;
+      color: #ffffff;
 }
-
 
 // HEADER TEXT STYLE =======
 .headerTextContainer{
@@ -131,6 +167,14 @@ ul.subMenu li:hover{
 
 .headerTextBox{
   display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headerTextItem{
+  display: flex;
+  flex-direction: column;
 }
 
 .headerTextBox img{
@@ -143,6 +187,7 @@ ul.subMenu li:hover{
   font-family: $baseFont;
   font-size: 32px;
   color: $tertiary;
+  margin: 0;
 }
 
 .headerTextBox span{
@@ -153,12 +198,18 @@ ul.subMenu li:hover{
   font-family: $tertiaryFont;
   font-size: 18px;
   color: $tertiary;
+  margin: 0;
 }
 
 .headerTextBox p{
   font-family: $tertiaryFont;
   font-size: 16px;
   color: $tertiary;
+  margin: 0;
+}
+
+.headerItemBox{
+  padding: 10px 25px;
 }
 
 .headerTextBox button{
@@ -170,7 +221,7 @@ ul.subMenu li:hover{
   text-transform: uppercase;
   font-size: 16px;
   font-family: $tertiaryFont;
-  border: 1px solid $secondary;
+  border: 2px solid $secondary;
 }
 
 .headerTextBox button:hover,
@@ -185,6 +236,9 @@ ul.subMenu li:hover{
 
 .headerNavBox{
   display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .headerNavContainer{
@@ -205,15 +259,37 @@ ul.headerNavList a{
   text-transform: uppercase;
 }
 
+ul.headerNavList{
+  padding: 0;
+}
+
 .headerNavBox img{
   width: 22px;
   height: 25px;
+}
+
+.headerNavIconBox{
+  display: flex;
+  align-items: center;
 }
 
 i.headerNavIcon{
   color:#ffffff;
   font-size: 17px;
   font-weight: 400;
+  display: flex;
+  padding-right: 10px;
+}
+
+.headerNavBoxMini{
+  position: relative;
+  padding-left: 55%;
+}
+
+.headerNavBoxMini img.shopNumb{
+  position: absolute;
+  top: 12px;
+  left: 70px;
 }
 // HEADER IMAGE SLIDER CONTAINER ==
 .carousel {
@@ -239,7 +315,7 @@ header.headerSliderContainer{
 .headerImageText{
   position: absolute;
   top: 0;
-  left: 140;
+  left: 10%;
 }
 
 .headerImageText h1{
@@ -261,10 +337,16 @@ button.primaryButton{
   background: $secondary;
   border: 1px solid $secondary;
   font-size: 18px;
+  position: relative;
+  z-index: 10;
 }
 
 i.primaryArrow{
   font-size: 25px;
   color: #ffffff;
+  position: relative;
+  top: 2px;
+  left: 36px;
+  z-index: 15;
 }
 
