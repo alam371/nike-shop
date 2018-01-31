@@ -4,6 +4,7 @@ footer{
 }
 .footerContainer{
       display: flex;
+      flex-wrap: wrap;
 }
 .footerCompanyInfoBox{
       margin-top: 150px;
@@ -190,7 +191,7 @@ i.footerArrow{
       top: -20px;
       left: 135px;
       width: 100%;
-      box-shadow: 0px 20px #424141;
+      box-shadow:  0px 36px 0 -13px #424141;
 }
 
 .footerContactBox{

@@ -54,9 +54,9 @@
           <div class="">
             <nav class="headerContactNav">
               <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Claim & Policy</a></li>
-                <li><a href="">Register</a></li>
+                <li><a href="#contact">About</a></li>
+                <li><a href="#contact">Claim & Policy</a></li>
+                <li><a href="#contact">Register</a></li>
               </ul>
             </nav>
           </div>
@@ -100,27 +100,27 @@
 <!-- === END OF HEADER TEXT === -->
 <!-- === START OF HEADER MAIN NAVIGATION === -->
     <div class="headerNavContainer wrapper">
-      <div class="headerNavBox">
+      <div class="headerNavBox" id="home">
         <nav>
           <ul class="headerNavList">
-            <li><a href="">Home</a></li>
+            <li><a href="home">Home</a></li>
             <li>
-              <a href="">About us</a>
+              <a href="#expert">About us</a>
             </li>
             <li>
-              <a href="">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="#blog">Blog</a>
             </li>
             <li>
-              <a href="">Shop</a>
+              <a href="#shop">Shop</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -183,7 +183,7 @@
   <!-- === === === === === START OF MAIN === === === === -->
   <main>
     <!-- === COMPANY CONTENT START === -->
-    <section class="companyContentImageContainer">
+    <section class="companyContentImageContainer" id="expert">
       <section class="companyContentContainer wrapper clearfix">
         <div class="companyContentBox leftSide">
           <p>We Help</p>
@@ -206,7 +206,7 @@
     </section>
     <!-- === END OF COMPANY CONTENT === -->
     <!-- === START OF SERVICE SECTION === -->
-    <section class="serviceContainer">
+    <section class="serviceContainer" id="services">
       <!-- === MOTTO CONTAINER START -->
       <section class="mottoContainer wrapper">
         <div class="mottoBox">
@@ -410,7 +410,7 @@
       </section>
       <!-- === END OF MOTTO CONTAINER === -->
       <!-- === START OF MOTTO TEXT CONTAINER === -->
-      <section class="mottoTextContainer wrapper clearfix">
+      <section class="mottoTextContainer wrapper clearfix" id="projects">
         <div class="mottoTextItems leftSide">
           <p>We have done more than 10,000 projects in the short period time and all the projects are done by our expert team with 100%
             satisfaction.
@@ -459,7 +459,7 @@
     </section>
     <!-- === END CONSULTANT CONTAINER === -->
     <!-- === START OF MOTTO CONTAINER === -->
-    <section class="mottoContainer wrapper">
+    <section class="mottoContainer wrapper" id="blog">
       <div class="mottoBox">
         <p>From Our Blog</p>
         <h2>Latest News</h2>
@@ -482,7 +482,7 @@
 
     <!-- === END OF MOTTO TEXT CONTAINER === -->
     <!-- === RESULT GALLERY === -->
-    <section class="resultGalleryContainer wrapper">
+    <section class="resultGalleryContainer wrapper" id="shop">
 
       <div class="resultGalleryBox">
         <div class="resultGalleryContent">
@@ -539,7 +539,7 @@
   </main>
   <!-- === === === === === END OF MAIN === === === === === -->
   <!-- === === === START OF FOOTER === === === -->
-  <footer>
+  <footer id="contact">
     <!-- === START OF FOOTER CONTAINER === -->
     <section class="footerContainer wrapper">
 
@@ -666,9 +666,23 @@
     </section>
   </footer>
 </body>
+
 <script src="https://use.fontawesome.com/863f28bd20.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(function () {
+    // when a user clicks on an anchor tag inside of the ul with the class of nav do this:
+    $('ul.nav a').on('click', function () {
+      // change the input type checkbox's checked attribute to be false(as if a user unchecked it)
+      $('input[type="checkbox"]').attr('checked', false);
+    });
+  });
+</script>
 </html>
 <!-- <i class="fa fa-caret-down" aria-hidden="true"></i>
 <i class="fa fa-search" aria-hidden="true"></i>

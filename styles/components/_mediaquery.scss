@@ -3,6 +3,15 @@
      .wrapper{
           width: 90%;
      }
+     .headerContactFB{
+           display: none;
+     }
+     i.headerNavIcon{
+           display: none;
+     }
+     .headerNavBox img{
+           display: none;
+     }
      .headerImageText h1{
           font-size: 50px;
      }
@@ -16,6 +25,10 @@
      }
      i.primaryArrow{
           font-size: 18px;
+     }
+
+     .headerTextBox button{
+           display: none;
      }
      .companyContentBox.leftSide{
           width: calc(100% - 4%);
@@ -34,6 +47,23 @@
      }
      .consultantBox.rightSide{
           width: 100%;
+     }
+     .footerDisplayBarContainer{
+           display: none;
+     }
+     .footerCompanyInfoBox{
+           width: 100%;
+           align-items: center;
+     }
+     .footerCompanyLogo p{
+           text-align: center;
+     }
+     .footerFocusBox{
+           margin: 0 auto;
+           text-align: center;
+     }
+     .footerSocialBar{
+           justify-content: center;
      }
      
 }
@@ -60,6 +90,12 @@
      i.primaryArrow{
           font-size: 10px;
           top: 0px;
+     }
+     .headerTextBox{
+           flex-wrap: wrap;
+     }
+     .headerTextBox button{
+           display: none;
      }
      .companyContentBox.leftSide{
           width: calc(100% - 4%);
@@ -112,5 +148,14 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
+      .headerTextBox{
+            display: none;
+      }
+      .headerImageText{
+            padding: 22px 34px;
+            margin: 7px 59px;
+      }
+      .headerNavContainer{
+            display: none;
+      }
 }

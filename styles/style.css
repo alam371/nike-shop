@@ -256,7 +256,17 @@ p.headerContactEmail {
 .headerContactNav ul li {
   list-style: none;
   display: inline-block;
-  padding-left: 10px; }
+  padding-left: 10px;
+  text-decoration: none; }
+
+.headerContactNav li a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #202020; }
+
+.headerContactNav li a:visited {
+  text-decoration: none; }
 
 .headerLangList {
   background: #f5f4f4;
@@ -966,7 +976,9 @@ footer {
 .footerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .footerCompanyInfoBox {
   margin-top: 150px;
@@ -1154,8 +1166,8 @@ i.footerArrow {
   top: -20px;
   left: 135px;
   width: 100%;
-  -webkit-box-shadow: 0px 20px #424141;
-  box-shadow: 0px 20px #424141; }
+  -webkit-box-shadow: 0px 36px 0 -13px #424141;
+  box-shadow: 0px 36px 0 -13px #424141; }
 
 .footerContactBox {
   display: -webkit-box;
@@ -1180,10 +1192,24 @@ i.footerArrow {
   color: #ffffff;
   padding-left: 15px; }
 
+button:hover,
+button:focus {
+  color: #424141; }
+
+i.fa:hover,
+i.fa:focus {
+  color: #424141; }
+
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
   .wrapper {
     width: 90%; }
+  .headerContactFB {
+    display: none; }
+  i.headerNavIcon {
+    display: none; }
+  .headerNavBox img {
+    display: none; }
   .headerImageText h1 {
     font-size: 50px; }
   .headerImageText p {
@@ -1194,6 +1220,8 @@ i.footerArrow {
     font-size: 14px; }
   i.primaryArrow {
     font-size: 18px; }
+  .headerTextBox button {
+    display: none; }
   .companyContentBox.leftSide {
     width: calc(100% - 4%); }
   .companyContentBox.rightSide {
@@ -1205,7 +1233,23 @@ i.footerArrow {
   .consultantBox.leftSide {
     width: 100%; }
   .consultantBox.rightSide {
-    width: 100%; } }
+    width: 100%; }
+  .footerDisplayBarContainer {
+    display: none; }
+  .footerCompanyInfoBox {
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footerCompanyLogo p {
+    text-align: center; }
+  .footerFocusBox {
+    margin: 0 auto;
+    text-align: center; }
+  .footerSocialBar {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -1225,6 +1269,11 @@ i.footerArrow {
   i.primaryArrow {
     font-size: 10px;
     top: 0px; }
+  .headerTextBox {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .headerTextBox button {
+    display: none; }
   .companyContentBox.leftSide {
     width: calc(100% - 4%); }
   .companyContentBox.rightSide {
@@ -1260,6 +1309,15 @@ i.footerArrow {
     width: 100%; } }
 
 /* Landscape phones and down */
+@media (max-width: 480px) {
+  .headerTextBox {
+    display: none; }
+  .headerImageText {
+    padding: 22px 34px;
+    margin: 7px 59px; }
+  .headerNavContainer {
+    display: none; } }
+
 html {
   font-size: 62.5%; }
 

@@ -27,25 +27,17 @@ img{
   width: 90%;
 }
 
-// .nav {
-//   ...
-//   ..
-// }
 
-// @mixin (max-width: 700pc) {
-//   .nav {
-    
-//   }
-// }
-
-// @mixin primaryButton($primaryButton) {
-//     font-size: $sizeValue;
-//     color: blue;
-//     font-weight: bold;
-// }
-
+//  ==== HOW TO MAKE SCSS PARTIAL FILES =======
 // MAKE THE PARTIAL
 // SAVE THE PARTIAL
 // DELETE THE PARTIAL
 // IMPORT THE PARTIAL
 // SAVE style.scss
+
+// ==== HOW TO CODE MIXIN =======
+// @mixin primaryButton($primaryButton) {
+//     font-size: $sizeValue;
+//     color: blue;
+//     font-weight: bold;
+// }
