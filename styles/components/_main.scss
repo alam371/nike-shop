@@ -29,7 +29,6 @@ section.companyContentImageContainer{
       height: 280px;
       position: absolute;
       top: 0;
-      // left: 10;
       z-index: 1;
 }
 .companyContentBox p{
@@ -47,6 +46,7 @@ section.companyContentImageContainer{
 .companyContentBox h3{
       font-family: $tertiaryFont;
       font-size: 16px;
+      color: rgba(0, 0, 0, 0.7)
 }
 
 p.companyContentTitle{
@@ -227,12 +227,14 @@ p.serviceTextColor{
       font-family: $secondaryFont;
       font-size: 18px;
       color: $secondary;
+      line-height: 36px;
 }
 
 p.serviceContentColor{
       font-family: $tertiaryFont;
       font-size: 16px;
-      color: $tertiary;
+      color: rgba(0, 0, 0, 0.7);
+      line-height: 36px;
 }
 // CONSULTING GALLERY CONTAINER ===
 .consultingGalleryContainer{
@@ -293,7 +295,7 @@ section.dataGalleryContainer{
 
 .dataGalleryItems{
       flex-direction: column;
-      padding: 40px 55px;
+      padding: 65px 55px;
 }
 .dataGalleryBox img{
       width: 50px;

@@ -3,6 +3,39 @@
      .wrapper{
           width: 90%;
      }
+     .headerImageText h1{
+          font-size: 50px;
+     }
+     .headerImageText p{
+          font-size: 16px;
+     }
+     button.primaryButton{
+          width: 181px;
+          height: 45px;
+          font-size: 14px;
+     }
+     i.primaryArrow{
+          font-size: 18px;
+     }
+     .companyContentBox.leftSide{
+          width: calc(100% - 4%);
+     }
+     .companyContentBox.rightSide{
+          width: 100%;
+     }
+     .serviceContentBox.leftSide{
+          width: 100%;
+     }
+     .serviceContentBox.rightSide {
+           width: 100%;
+     }
+     .consultantBox.leftSide {
+           width: 100%;
+     }
+     .consultantBox.rightSide{
+          width: 100%;
+     }
+     
 }
 
 /* Landscape phone to portrait tablet */

@@ -62,7 +62,7 @@ footer{
 .footerCompanyLogo h3{
   font-family: $tertiaryFont;
   font-size: 16px;
-  color: $primary;
+  color: #b1afaf;
   margin: 0;
   margin-left: 10px;
 }
@@ -70,7 +70,8 @@ footer{
 .footerCompanyLogo p{
       font-family: $secondaryFont;
       font-size: 15px;
-      color: #ffffff;
+      color:#b1afaf;
+      line-height: 32px;
 }
 
 button.footerEmailButton{
@@ -82,7 +83,7 @@ button.footerEmailButton{
       border: 1px solid $secondary;
       border-radius: 25px;
       position: absolute;
-      top: 388px;
+      top: 434px;
       left: 420px;
 }
 
@@ -132,10 +133,11 @@ input[placeholder="Your email"]{
 }
 
 .footerFocusNav ul a{
-      color: $primary;
+      color: #b1afaf;
       font-size: 16px;
       font-family: $tertiaryFont;
       text-decoration: none;
+      line-height: 40px;
 }
 // FOOTER NEWS BOX ===
 .footerNewsTitle p{
@@ -157,7 +159,7 @@ input[placeholder="Your email"]{
 .footerNewsText h4{
       font-family: $tertiaryFont;
       font-size: 15px;
-      color: $primary;
+      color: #b1afaf;
 }
 
 button.footerButton{
@@ -175,7 +177,7 @@ i.footerArrow{
 
 .footerSocialBar i.footerIcon{
       font-size: 20px;
-      color: #ffffff;
+      color: #b1afaf;
       padding: 1%;
 }
 

@@ -248,7 +248,7 @@ ul.subMenu li:hover{
 .headerNavBox ul li{
   list-style: none;
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 28px;
 }
 
 ul.headerNavList a{
@@ -316,12 +316,16 @@ header.headerSliderContainer{
   position: absolute;
   top: 0;
   left: 10%;
+  padding-top: 131px;
 }
 
 .headerImageText h1{
   font-family: $baseFont;
   font-size: 70px;
   color:  #ffffff;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 12px;
 }
 
 .headerImageText p{
@@ -346,7 +350,7 @@ i.primaryArrow{
   color: #ffffff;
   position: relative;
   top: 2px;
-  left: 36px;
+  left: 35px;
   z-index: 15;
 }
 
