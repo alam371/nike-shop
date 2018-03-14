@@ -296,7 +296,7 @@ i.headerNavIcon{
 .headerNavBoxMini img.shopNumb{
   position: absolute;
   top: 12px;
-  left: 70px;
+  left: 123px;
 }
 
 // BURGER!!
@@ -517,3 +517,11 @@ i.primaryArrow{
   z-index: 15;
 }
 
+i.blackArrow{
+  font-size: 25px;
+  color: #ffffff;
+  position: relative;
+  top: 2px;
+  left: 45px;
+  z-index: 15;
+}

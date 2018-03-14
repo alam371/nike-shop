@@ -456,7 +456,7 @@ i.headerNavIcon {
 .headerNavBoxMini img.shopNumb {
   position: absolute;
   top: 12px;
-  left: 70px; }
+  left: 123px; }
 
 .headerNavBoxBurger {
   display: none;
@@ -637,6 +637,14 @@ i.primaryArrow {
   position: relative;
   top: 2px;
   left: -8px;
+  z-index: 15; }
+
+i.blackArrow {
+  font-size: 25px;
+  color: #ffffff;
+  position: relative;
+  top: 2px;
+  left: 45px;
   z-index: 15; }
 
 section.companyContentImageContainer {
@@ -1328,16 +1336,25 @@ i.fa:hover,
 i.fa:focus {
   color: #424141; }
 
+@media (max-width: 1350px) {
+  .headerImageText {
+    padding: 100px; } }
+
 @media (max-width: 1080px) {
   .wrapper {
-    max-width: 100%; } }
-
-/* Portrait tablet and small desktops */
-@media (max-width: 1080px) {
+    max-width: 100%; }
+  .headerImageText {
+    position: absolute;
+    top: 0;
+    left: 0; }
   .wrapper {
     width: 90%; }
   .headerNavBoxMini {
     display: none; } }
+
+@media (max-width: 1040px) {
+  .headerImageText h1 {
+    font-size: 40px; } }
 
 @media (max-width: 960px) {
   .headerTextContainer {
@@ -1375,7 +1392,7 @@ i.fa:focus {
     width: 181px;
     height: 45px;
     font-size: 14px; }
-  i.primaryArrow {
+  i .primaryArrow {
     font-size: 18px; }
   .headerTextBox button {
     display: none; }
@@ -1406,7 +1423,27 @@ i.fa:focus {
   .footerSocialBar {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .headerImageText p {
+    font-size: 14px; } }
+
+@media (max-width: 860px) {
+  .headerImageText h1 {
+    font-size: 30px; } }
+
+@media (max-width: 780px) {
+  .headerNavContainer {
+    display: none; }
+  .headerNavBoxBurger {
+    display: block; }
+  .headerNavBoxBurger #menuToggle {
+    top: 30px;
+    left: -220px; }
+  .headerItemBox {
+    padding: 0px;
+    text-align: center; }
+  .headerTextBox img {
+    margin: 0 auto; } }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -1423,7 +1460,7 @@ i.fa:focus {
     width: 150px;
     height: 25px;
     font-size: 10px; }
-  i.primaryArrow {
+  i .primaryArrow {
     font-size: 10px;
     top: 0px; }
   .headerTextBox {
@@ -1465,20 +1502,6 @@ i.fa:focus {
   .footerCompanyInfoBox {
     width: 100%; } }
 
-@media (max-width: 780px) {
-  .headerNavContainer {
-    display: none; }
-  .headerNavBoxBurger {
-    display: block; }
-  .headerNavBoxBurger #menuToggle {
-    top: 30px;
-    left: -220px; }
-  .headerItemBox {
-    padding: 0px;
-    text-align: center; }
-  .headerTextBox img {
-    margin: 0 auto; } }
-
 @media (max-width: 740px) {
   .headerNavBoxBurger #menuToggle {
     top: 40px;
@@ -1492,7 +1515,9 @@ i.fa:focus {
 @media (max-width: 640px) {
   .headerNavBoxBurger #menuToggle {
     top: 40px;
-    left: -150px; } }
+    left: -150px; }
+  .headerImageText {
+    display: none; } }
 
 @media (max-width: 590px) {
   .headerNavBoxBurger #menuToggle {

@@ -1,16 +1,37 @@
+@media (max-width: 1350px){
+      .headerImageText{
+            padding: 100px;
+      }
+}
+
+@media (max-width: 1180px){
+      // .headerImageText{
+      // // padding: 0px;
+      // // top: -45px;
+      // // left: 0%;
+      // }
+}
 @media (max-width: 1080px){
       .wrapper{
             max-width: 100%;
       }
-}
-/* Portrait tablet and small desktops */
-@media (max-width: 1080px){
+      .headerImageText{
+            position: absolute;
+            top: 0;
+            left: 0;
+      }
       .wrapper{
             width: 90%;
       }
-
+      
       .headerNavBoxMini{
         display: none;
+      }
+}
+
+@media (max-width: 1040px){
+      .headerImageText h1{
+            font-size: 40px;
       }
 }
 
@@ -58,7 +79,7 @@
           height: 45px;
           font-size: 14px;
      }
-     i.primaryArrow{
+     i .primaryArrow{
           font-size: 18px;
      }
 
@@ -101,8 +122,37 @@
            justify-content: center;
      }
      
+     .headerImageText p{
+           font-size: 14px;
+     }
+     
 }
-      
+
+@media (max-width: 860px){
+      .headerImageText h1{
+            font-size: 30px;
+      }
+}
+
+@media (max-width: 780px) {
+       .headerNavContainer{
+            display: none;
+      }
+      .headerNavBoxBurger{
+            display: block;
+      }
+      .headerNavBoxBurger #menuToggle{
+            top: 30px;
+            left: -220px;
+      }
+      .headerItemBox{
+            padding: 0px;
+            text-align: center;
+      }
+      .headerTextBox img{
+            margin: 0 auto;
+      }
+}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -123,7 +173,7 @@
           height: 25px;
           font-size: 10px;
      }
-     i.primaryArrow{
+     i .primaryArrow{
           font-size: 10px;
           top: 0px;
      }
@@ -182,25 +232,7 @@
 
 }
 
-@media (max-width: 780px) {
-       .headerNavContainer{
-            display: none;
-      }
-      .headerNavBoxBurger{
-            display: block;
-      }
-      .headerNavBoxBurger #menuToggle{
-            top: 30px;
-            left: -220px;
-      }
-      .headerItemBox{
-            padding: 0px;
-            text-align: center;
-      }
-      .headerTextBox img{
-            margin: 0 auto;
-      }
-}
+
 
 @media (max-width : 740px){
       .headerNavBoxBurger #menuToggle{
@@ -220,6 +252,9 @@
       .headerNavBoxBurger #menuToggle{
             top: 40px;
             left: -150px;
+      }
+      .headerImageText{
+            display: none;
       }
 }
 
