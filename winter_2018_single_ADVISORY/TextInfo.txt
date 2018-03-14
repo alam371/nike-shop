@@ -1,3 +1,0 @@
-Heading Font: Playfair Display (Google Fonts)
-Secondary Heading Font: Poppins (Google Fonts)
-Body Font: Source Sans Pro (Google Fonts)

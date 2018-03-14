@@ -458,6 +458,134 @@ i.headerNavIcon {
   top: 12px;
   left: 70px; }
 
+.headerNavBoxBurger {
+  display: none;
+  /*
+ * Just a quick hamburger
+ */
+  /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+  /*
+ * But let's hide the middle one.
+ */
+  /*
+ * Ohyeah and the last one should go the other direction
+ */
+  /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+  /*
+ * And let's slide it in from the left
+ */ }
+  .headerNavBoxBurger body {
+    margin: 0;
+    padding: 0;
+    background: #232323;
+    color: #ffffff;
+    font-family: "Playfair Display", serif; }
+  .headerNavBoxBurger a {
+    text-decoration: none;
+    color: #232323;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease; }
+  .headerNavBoxBurger a:hover {
+    color: #202020; }
+  .headerNavBoxBurger #menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .headerNavBoxBurger #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none; }
+  .headerNavBoxBurger #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #2f87fd;
+    border-radius: 3px;
+    z-index: 1;
+    -webkit-transform-origin: 4px 0px;
+    -ms-transform-origin: 4px 0px;
+    transform-origin: 4px 0px;
+    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+  .headerNavBoxBurger #menuToggle span:first-child {
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%; }
+  .headerNavBoxBurger #menuToggle span:nth-last-child(2) {
+    -webkit-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    transform-origin: 0% 100%; }
+  .headerNavBoxBurger #menuToggle input:checked ~ span {
+    opacity: 1;
+    -webkit-transform: rotate(45deg) translate(-2px, -1px);
+    -ms-transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323; }
+  .headerNavBoxBurger #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+    -ms-transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2); }
+  .headerNavBoxBurger #menuToggle input:checked ~ span:nth-last-child(2) {
+    -webkit-transform: rotate(-45deg) translate(0, -1px);
+    -ms-transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px); }
+  .headerNavBoxBurger #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #2f87fd;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+  .headerNavBoxBurger #menu li {
+    padding: 10px 0;
+    font-size: 22px; }
+  .headerNavBoxBurger #menuToggle input:checked ~ ul {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; }
+
 .carousel {
   background: #ffffff;
   max-width: 100%;
@@ -508,7 +636,7 @@ i.primaryArrow {
   color: #ffffff;
   position: relative;
   top: 2px;
-  left: 35px;
+  left: -8px;
   z-index: 15; }
 
 section.companyContentImageContainer {
@@ -1200,7 +1328,36 @@ i.fa:hover,
 i.fa:focus {
   color: #424141; }
 
+@media (max-width: 1080px) {
+  .wrapper {
+    max-width: 100%; } }
+
 /* Portrait tablet and small desktops */
+@media (max-width: 1080px) {
+  .wrapper {
+    width: 90%; }
+  .headerNavBoxMini {
+    display: none; } }
+
+@media (max-width: 960px) {
+  .headerTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .headerContactFB {
+    display: none; }
+  .headerBoxAdvisory {
+    width: 100%; }
+  .headerBoxBlue,
+  .headerBoxOff,
+  .headerBoxWatch,
+  .headerBoxTime,
+  .headerBoxFree {
+    display: none; } }
+
 @media (max-width: 940px) {
   .wrapper {
     width: 90%; }
@@ -1308,15 +1465,55 @@ i.fa:focus {
   .footerCompanyInfoBox {
     width: 100%; } }
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  .headerTextBox {
-    display: none; }
-  .headerImageText {
-    padding: 22px 34px;
-    margin: 7px 59px; }
+@media (max-width: 780px) {
   .headerNavContainer {
-    display: none; } }
+    display: none; }
+  .headerNavBoxBurger {
+    display: block; }
+  .headerNavBoxBurger #menuToggle {
+    top: 30px;
+    left: -220px; }
+  .headerItemBox {
+    padding: 0px;
+    text-align: center; }
+  .headerTextBox img {
+    margin: 0 auto; } }
+
+@media (max-width: 740px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -200px; } }
+
+@media (max-width: 700px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -175px; } }
+
+@media (max-width: 640px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -150px; } }
+
+@media (max-width: 590px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -120px; } }
+
+@media (max-width: 525px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -90px; } }
+
+@media (max-width: 525px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -90px; } }
+
+/* Landscape phones and down */
+@media (max-width: 460px) {
+  .headerNavBoxBurger #menuToggle {
+    top: 40px;
+    left: -60px; } }
 
 html {
   font-size: 62.5%; }

@@ -1,4 +1,39 @@
+@media (max-width: 1080px){
+      .wrapper{
+            max-width: 100%;
+      }
+}
 /* Portrait tablet and small desktops */
+@media (max-width: 1080px){
+      .wrapper{
+            width: 90%;
+      }
+
+      .headerNavBoxMini{
+        display: none;
+      }
+}
+
+@media (max-width: 960px){
+      .headerTextContainer{
+            display: flex;
+            justify-content: center;
+      }
+      .headerContactFB{
+            display: none;
+      }
+      .headerBoxAdvisory{
+            width: 100%;
+      }
+      .headerBoxBlue,
+      .headerBoxOff,
+      .headerBoxWatch,
+      .headerBoxTime,
+      .headerBoxFree{
+            display: none;
+      }
+}
+
 @media (max-width: 940px) {
      .wrapper{
           width: 90%;
@@ -67,6 +102,7 @@
      }
      
 }
+      
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -146,16 +182,71 @@
 
 }
 
+@media (max-width: 780px) {
+       .headerNavContainer{
+            display: none;
+      }
+      .headerNavBoxBurger{
+            display: block;
+      }
+      .headerNavBoxBurger #menuToggle{
+            top: 30px;
+            left: -220px;
+      }
+      .headerItemBox{
+            padding: 0px;
+            text-align: center;
+      }
+      .headerTextBox img{
+            margin: 0 auto;
+      }
+}
+
+@media (max-width : 740px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -200px;
+      }
+}
+
+@media (max-width : 700px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -175px;
+      }
+}
+
+@media (max-width: 640px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -150px;
+      }
+}
+
+@media (max-width: 590px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -120px;
+      }
+}
+
+@media (max-width: 525px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -90px;
+      }
+}
+
+@media (max-width: 525px){
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -90px;
+      }
+}
 /* Landscape phones and down */
-@media (max-width: 480px) {
-      .headerTextBox{
-            display: none;
-      }
-      .headerImageText{
-            padding: 22px 34px;
-            margin: 7px 59px;
-      }
-      .headerNavContainer{
-            display: none;
+@media (max-width: 460px) {
+      .headerNavBoxBurger #menuToggle{
+            top: 40px;
+            left: -60px;
       }
 }
