@@ -1,255 +1,15 @@
 
-// HEADER CONTACT STYLE ==========
-.headerContactContainer{
-  display: flex;
-  justify-content: space-between;
-}
-
-.headerContactLeft{
-  display: flex;
-}
-
-.headerContactBox{
-  display: flex;
-  justify-content: flex-start;
-}
-
-.headerContactMail{
-  display: flex;
-}
-
-.headerContactRight{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.headerContactBox{
-  display: flex;
-  align-items: center;
-}
-
-.headerContactPhone{
-  display: flex;
-  justify-content: flex-start;
-}
-
-.headerContactFB{
-  background:#f5f5f5;
-  width: 100%;
-  min-height: 65px;
-}
-
-.headerContactPhone{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.headerContactItem{
-  display: flex;
-}
-
-.headerContactMail{
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
-}
-
-.headerContactEmail{
-  display: flex;
-}
-
-.contactLang{
-  display: flex;
-}
-
-.headerContactBox img{
-  width: 25px;
-  height: 25px;
-}
-
-.headerContactBox p{
-  font-family: $tertiaryFont;
-  font-size: 16px;
-}
-
-p.headerContactItem{
-  padding: 5px;
-}
-
-p.headerContactEmail{
-  padding: 5px;
-}
-
-.headerContactNav{
-  font-family: $tertiaryFont;
-  font-size: 16px;
-}
-
-.headerContactNav ul li{
-  list-style: none;
-  display: inline-block;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.headerContactNav li a{
-  text-decoration: none;
-  font-family: $tertiaryFont;
-  font-size: 16px;
-  color: $tertiary;
-}
-
-.headerContactNav li a:visited{
-  text-decoration: none;
-}
-// LANGUAGE NAV STYLE ===
-.headerLangList{
-  background: $primary;
-  margin: 0;
-  padding: 0;
-}
-
-.headerLangList li{
-  float: left;
-  list-style: none;
-  position: relative;
-}
-
-.headerLangList span{
-  font-size: 14px;
-  color: $secondary;
-}
-
-.headerLangList li a{
-  padding: 10px 20px;
-  display: inline-block;
-  color: $tertiary;
-  text-decoration: none;
-  font-family: $tertiaryFont;
-  font-size: 16px;
-}
-
-.headerLangList li:hover {
-  background-color: silver;
-}
-
-.headerLangList li:hover ul.subMenu{
-   display: block;
-   font-family: $tertiaryFont;
-   font-size: 16px;
-   color: $tertiary;
-   background: $secondary;
-   text-align: center;
-   padding: 10px 20px;
-}
-
-ul.subMenu {
-  background: $primary;
-  color: white;
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  padding: 0;
-}
-
-ul.subMenu li{
-  float: none;
-}
-
-ul.subMenu li:hover{
-      background-color: $secondary;
-      color: #ffffff;
-}
-
-// HEADER TEXT STYLE =======
-.headerTextContainer{
-  display: flex;
-  justify-content: space-between;
-}
-
-.headerTextBox{
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.headerTextItem{
-  display: flex;
-  flex-direction: column;
-}
-
-.headerTextBox img{
-  width: 40px;
-  height: 40px;
-  display: flex;
-}
-
-.headerTextBox h2{
-  font-family: $baseFont;
-  font-size: 32px;
-  color: $tertiary;
-  margin: 0;
-}
-
-.headerTextBox span{
-  color: $secondary;
-}
-
-.headerTextBox h3{
-  font-family: $tertiaryFont;
-  font-size: 18px;
-  color: $tertiary;
-  margin: 0;
-}
-
-.headerTextBox p{
-  font-family: $tertiaryFont;
-  font-size: 16px;
-  color: $tertiary;
-  margin: 0;
-}
-
-.headerItemBox{
-  padding: 10px 25px;
-}
-
-.headerTextBox button{
-  width: 195px;
-  height: 55px; 
-  color: $secondary;
-  background: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-family: $tertiaryFont;
-  border: 2px solid $secondary;
-}
-
-.headerTextBox button:hover,
-.headerTextBox button:focus{
-  color: $tertiary;
-}
-
 // HEADER MAIN NAVIGATION STYLE ===
 
 .headerNavContainer{
   display: flex;
   justify-content: space-between;
+  background: $secondary;
 }
 
 .headerNavBox{
   display: flex;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.headerNavContainer{
-  background: $secondary;
 }
 
 .headerNavBox ul li{
@@ -258,9 +18,21 @@ ul.subMenu li:hover{
   padding-left: 28px;
 }
 
+.headerNavBox .logoText{
+  color: #ffffff;
+  font-size: 42px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
 ul.headerNavList a{
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: $tertiaryFont;
   text-decoration: none;
   text-transform: uppercase;
@@ -270,201 +42,187 @@ ul.headerNavList{
   padding: 0;
 }
 
-.headerNavBox img{
-  width: 22px;
-  height: 25px;
+ul.headerNavList a:hover {
+  color: darkgray;
 }
 
-.headerNavIconBox{
-  display: flex;
-  align-items: center;
+.headerNavBoxMini {
+  margin-left: 55px;
+  a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  img {
+    color: #ffffff;
+    width: 16px;
+    height: 16px;
+    margin-right: 30px;
+  }
 }
 
-i.headerNavIcon{
-  color:#ffffff;
-  font-size: 17px;
-  font-weight: 400;
-  display: flex;
-  padding-right: 10px;
-}
 
-.headerNavBoxMini{
-  position: relative;
-  padding-left: 55%;
-}
-
-.headerNavBoxMini img.shopNumb{
-  position: absolute;
-  top: 12px;
-  left: 123px;
-}
-
-// BURGER!!
-.headerNavBoxBurger{
+// BURGER
+.headerTextContainer .headerNavBoxBurger{
   display: none;
-  body{
+  body
+  {
     margin: 0;
     padding: 0;
+
+    /* make it look decent enough */
     background: #232323;
-    color: #ffffff;
-    font-family: $baseFont;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+
+    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
   }
+
   a
- {
-  text-decoration: none;
-  color: #232323;
-  
-  transition: color 0.3s ease;
-}
+  {
+    text-decoration: none;
+    color: #232323;
 
-a:hover
-{
-  color: $tertiary;
-}
+    transition: color 0.3s ease;
+  }
 
-#menuToggle
-{
-  display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
-}
+  a:hover
+  {
+    color: tomato;
+  }
 
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
+  #menuToggle
+  {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 50px;
 
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  
-  background:$secondary;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
+    z-index: 1;
 
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
+    -webkit-user-select: none;
+    user-select: none;
+  }
 
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
+  #menuToggle input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
+    cursor: pointer;
 
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
 
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
+    -webkit-touch-callout: none;
+  }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
-  background: $secondary;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
+  /*
+   * Just a quick hamburger
+   */
+  #menuToggle span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
 
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
+    background: #ffffff;
+    border-radius: 3px;
 
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-}
-}
-// HEADER IMAGE SLIDER CONTAINER ==
-.carousel {
-  background: #ffffff;
-  //  rgba(1, 22, 50, 0.45)
-  max-width: 100%;
-  margin: 0 auto;
-}
+    z-index: 1;
 
-.carousel-cell {
-  width: 100%;
-  min-height: 200px;
-  margin-right: 10px;
-  background: #ffffff;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -100px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  /*
+   * And let's fade it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
 }
 
 header.headerSliderContainer{
@@ -483,45 +241,44 @@ header.headerSliderContainer{
   font-size: 70px;
   color:  #ffffff;
   margin: 0;
-  line-height: 1;
-  padding-bottom: 12px;
+  margin-top: 80%;
 }
 
 .headerImageText p{
   font-family: $tertiaryFont;
-  font-size: 18px;
+  font-size: 35px;
   color: #ffffff;
 }
-
-// .headerImageText a{
-//   display: block;
-// }
-
-button.primaryButton{
-  width: 215px;
-  height: 52px;
-  color: #ffffff;
-  background: $secondary;
-  border: 1px solid $secondary;
-  font-size: 18px;
-  position: relative;
-  z-index: 10;
-}
-
-i.primaryArrow{
-  font-size: 25px;
-  color: #ffffff;
-  position: relative;
-  top: 2px;
-  left: -8px;
-  z-index: 15;
-}
-
-i.blackArrow{
-  font-size: 25px;
-  color: #ffffff;
-  position: relative;
-  top: 2px;
-  left: 45px;
-  z-index: 15;
-}
+//
+//// .headerImageText a{
+////   display: block;
+//// }
+//
+//button.primaryButton{
+//  width: 215px;
+//  height: 52px;
+//  color: #ffffff;
+//  background: $secondary;
+//  border: 1px solid $secondary;
+//  font-size: 18px;
+//  position: relative;
+//  z-index: 10;
+//}
+//
+//i.primaryArrow{
+//  font-size: 25px;
+//  color: #ffffff;
+//  position: relative;
+//  top: 2px;
+//  left: -8px;
+//  z-index: 15;
+//}
+//
+//i.blackArrow{
+//  font-size: 25px;
+//  color: #ffffff;
+//  position: relative;
+//  top: 2px;
+//  left: 45px;
+//  z-index: 15;
+//}

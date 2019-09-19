@@ -1,287 +1,270 @@
 @media (max-width: 1350px){
-      .headerImageText{
-            padding: 100px;
-      }
+  .headerImageText{
+    padding: 100px;
+    top: -10%;
+    left: 10%;
+  }
+  .serviceGalleryItems img.product-icon{
+    margin-top: 18%;
+  }
 }
 
 @media (max-width: 1180px){
-      // .headerImageText{
-      // // padding: 0px;
-      // // top: -45px;
-      // // left: 0%;
-      // }
+  .headerImageText{
+  padding: 0px;
+  top: -10%;
+  left: 10%;
+  }
+  .serviceGalleryItems img.product-icon{
+    margin-top: 28%;
+  }
+
 }
 @media (max-width: 1080px){
-      .wrapper{
-            max-width: 100%;
-      }
-      .headerImageText{
-            position: absolute;
-            top: 0;
-            left: 0;
-      }
-      .wrapper{
-            width: 90%;
-      }
-      
-      .headerNavBoxMini{
-        display: none;
-      }
-}
+  .wrapper{
+        max-width: 100%;
+  }
 
-@media (max-width: 1040px){
-      .headerImageText h1{
-            font-size: 40px;
-      }
+  .headerImageText h1{
+    font-size:60px;
+  }
+
+  .wrapper{
+        width: 90%;
+  }
+
+  .contentGalleryBox {
+    flex-direction: column;
+    width: 50%;
+  }
+  .serviceGalleryItems img.product-icon{
+    margin-top: 12%;
+  }
 }
 
 @media (max-width: 960px){
-      .headerTextContainer{
-            display: flex;
-            justify-content: center;
-      }
-      .headerContactFB{
-            display: none;
-      }
-      .headerBoxAdvisory{
-            width: 100%;
-      }
-      .headerBoxBlue,
-      .headerBoxOff,
-      .headerBoxWatch,
-      .headerBoxTime,
-      .headerBoxFree{
-            display: none;
-      }
+  .headerImageText h1{
+    font-size: 50px;
+  }
+  .headerImageText p{
+    font-size: 28px;
+  }
+  .form-select-container {
+    flex-direction: column;
+  }
+  .form-select-box{
+    width: 100%;
+  }
+
+  .headerNavBoxMini{
+    display: none;
+  }
+
+  .headerTextContainer .headerNavBoxBurger{
+    display: block;
+  }
 }
 
 @media (max-width: 940px) {
-     .wrapper{
-          width: 90%;
-     }
-     .headerContactFB{
-           display: none;
-     }
-     i.headerNavIcon{
-           display: none;
-     }
-     .headerNavBox img{
-           display: none;
-     }
-     .headerImageText h1{
-          font-size: 50px;
-     }
-     .headerImageText p{
-          font-size: 16px;
-     }
-     button.primaryButton{
-          width: 181px;
-          height: 45px;
-          font-size: 14px;
-     }
-     i .primaryArrow{
-          font-size: 18px;
-     }
-
-     .headerTextBox button{
-           display: none;
-     }
-     .companyContentBox.leftSide{
-          width: calc(100% - 4%);
-     }
-     .companyContentBox.rightSide{
-          width: 100%;
-     }
-     .serviceContentBox.leftSide{
-          width: 100%;
-     }
-     .serviceContentBox.rightSide {
-           width: 100%;
-     }
-     .consultantBox.leftSide {
-           width: 100%;
-     }
-     .consultantBox.rightSide{
-          width: 100%;
-     }
-     .footerDisplayBarContainer{
-           display: none;
-     }
-     .footerCompanyInfoBox{
-           width: 100%;
-           align-items: center;
-     }
-     .footerCompanyLogo p{
-           text-align: center;
-     }
-     .footerFocusBox{
-           margin: 0 auto;
-           text-align: center;
-     }
-     .footerSocialBar{
-           justify-content: center;
-     }
-     
-     .headerImageText p{
-           font-size: 14px;
-     }
-     
+   .wrapper{
+        width: 90%;
+   }
+  .footerCompanyInfoBox{
+    width: 100%;
+  }
 }
 
 @media (max-width: 860px){
-      .headerImageText h1{
-            font-size: 30px;
-      }
+  .headerImageText h1{
+        font-size: 40px;
+  }
 }
 
 @media (max-width: 780px) {
-       .headerNavContainer{
-            display: none;
-      }
-      .headerNavBoxBurger{
-            display: block;
-      }
-      .headerNavBoxBurger #menuToggle{
-            top: 30px;
-            left: -220px;
-      }
-      .headerItemBox{
-            padding: 0px;
-            text-align: center;
-      }
-      .headerTextBox img{
-            margin: 0 auto;
-      }
+   .headerNavContainer{
+        display: none;
+  }
+  .headerNavBoxBurger{
+        display: block;
+  }
+  .headerNavBoxBurger #menuToggle{
+        top: 30px;
+        left: -220px;
+  }
+  .headerItemBox{
+        padding: 0px;
+        text-align: center;
+  }
+  .headerTextBox img{
+        margin: 0 auto;
+  }
+  .headerImageText{
+    top: -22%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 850px) {
+  section.dataGalleryContainer{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-     .wrapper{
-          width: 90%;
-     }
-     .headerContactBox{
-          flex-wrap: wrap;
-     }
-     .headerImageText h1{
-          font-size: 16px;
-     }
-     .headerImageText p{
-          font-size: 10px;
-     }
-     button.primaryButton{
-          width: 150px;
-          height: 25px;
-          font-size: 10px;
-     }
-     i .primaryArrow{
-          font-size: 10px;
-          top: 0px;
-     }
-     .headerTextBox{
-           flex-wrap: wrap;
-     }
-     .headerTextBox button{
-           display: none;
-     }
-     .companyContentBox.leftSide{
-          width: calc(100% - 4%);
-     }
-     .companyContentBox.rightSide{
-          width: 100%;
-     }
-     .serviceGalleryBox{
-          width: 100%;
-     }
-     .serviceContentBox.leftSide{
-          width: 100%;
-     }
-     .serviceContentBox.rightSide{
-          width: 100%;
-     }
-     .consultingGalleryBox{
-          width: 100%;
-     }
-     .consultantBox.leftSide{
-          width: 100%;
-     }
-     .consultantBox.rightSide{
-          width: 100%;
-     }
-     section.dataGalleryContainer{
-          width: 100%;
-     }
-     .projectGalleryContainer{
-          width: 100%;
-     }
-     .mottoTextItems.leftSide{
-          width: 100%;
-     }
-     .mottoTextItems.rightSide{
-          width: 100%;
-     }
-     .resultGalleryBox{
-          width: 100%;
-     }
-     .clientBox{
-          width: 100%;
-          justify-content: center;
-     }
-     .footerCompanyInfoBox{
-          width: 100%;
-     }
+   .wrapper{
+        width: 90%;
+   }
+  .contentGalleryBox {
+    width: 25%;
+  }
+  .serviceGalleryItems img.product-icon {
+    margin-top: 9%;
+  }
+   //.headerContactBox{
+   //     flex-wrap: wrap;
+   //}
 
-}
-
-
-
-@media (max-width : 740px){
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -200px;
-      }
+   //button.primaryButton{
+   //     width: 150px;
+   //     height: 25px;
+   //     font-size: 10px;
+   //}
+   //i .primaryArrow{
+   //     font-size: 10px;
+   //     top: 0px;
+   //}
+   //.headerTextBox{
+   //      flex-wrap: wrap;
+   //}
+   //.headerTextBox button{
+   //      display: none;
+   //}
+   .companyContentBox.leftSide{
+        width: calc(100% - 4%);
+   }
+   .companyContentBox.rightSide{
+        width: 100%;
+   }
+   .serviceGalleryBox{
+        width: 100%;
+   }
+   .serviceContentBox.leftSide{
+        width: 100%;
+   }
+   .serviceContentBox.rightSide{
+        width: 100%;
+   }
+   .consultingGalleryBox{
+        width: 100%;
+   }
+   .consultantBox.leftSide{
+        width: 100%;
+   }
+   .consultantBox.rightSide{
+        width: 100%;
+   }
+   section.dataGalleryContainer{
+        width: 100%;
+   }
+   .projectGalleryContainer{
+        width: 100%;
+   }
+   .mottoTextItems.leftSide{
+        width: 100%;
+   }
+   .mottoTextItems.rightSide{
+        width: 100%;
+   }
+   .resultGalleryBox{
+        width: 100%;
+   }
+   .clientBox{
+        width: 100%;
+        justify-content: center;
+   }
 }
 
 @media (max-width : 700px){
-      .headerNavBoxBurger #menuToggle{
+  .headerNavBoxBurger #menuToggle{
             top: 40px;
             left: -175px;
       }
+  .headerImageText {
+        top: -50%;
+        left: 10%;
+      }
+  .headerImageText h1 {
+    font-size: 40px;
+  }
+  .headerImageText p {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 640px){
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -150px;
-      }
-      .headerImageText{
-            display: none;
-      }
+  .headerNavBoxBurger #menuToggle{
+        top: 40px;
+        left: -150px;
+  }
+
+  .serviceGalleryItems img.product-icon {
+    margin-top: 12%;
+  }
 }
 
 @media (max-width: 590px){
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -120px;
-      }
+  .headerNavBoxBurger #menuToggle{
+        top: 40px;
+        left: -120px;
+  }
 }
 
 @media (max-width: 525px){
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -90px;
-      }
+  .headerNavBoxBurger #menuToggle{
+        top: 40px;
+        left: -90px;
+  }
+  .headerImageText h1 {
+    font-size: 30px;
+  }
+  .headerImageText p {
+    font-size: 18px;
+  }
+  .contentGalleryBox {
+    width: 50%;
+  }
+  .serviceGalleryItems img.product-icon {
+    margin-top: 6%;
+  }
 }
 
-@media (max-width: 525px){
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -90px;
-      }
-}
 /* Landscape phones and down */
 @media (max-width: 460px) {
-      .headerNavBoxBurger #menuToggle{
-            top: 40px;
-            left: -60px;
-      }
+  .headerNavBoxBurger #menuToggle{
+        top: 40px;
+        left: -60px;
+  }
+  .headerImageText h1 {
+    font-size: 30px;
+  }
+  .headerImageText p {
+    font-size: 18px;
+  }
+  input[type="text"] {
+    width: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerImageText h1 {
+    font-size: 20px;
+  }
+  .headerImageText p {
+    font-size: 16px;
+  }
+  .serviceGalleryItems img.product-icon {
+    margin-top: 11%;
+  }
 }

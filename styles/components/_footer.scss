@@ -1,13 +1,12 @@
 footer{
       background: $tertiary;
-      position: relative;
 }
 .footerContainer{
       display: flex;
       flex-wrap: wrap;
 }
 .footerCompanyInfoBox{
-      margin-top: 150px;
+      margin-top: 5%;
       display: flex;
        width: 33.33%;
       flex-direction: column;
@@ -26,10 +25,12 @@ footer{
 
 .footerCompanyWidget{
       display: flex;
+      flex-direction: column;
 }
 
 .footerFocusBox{
       display: flex;
+      justify-content: space-between;
 }
 
 .footerSocialMedia{
@@ -43,29 +44,43 @@ footer{
 }
 
 //  FOOTER COMPANY INFO BOX STYLE ===
-.footerCompanyLogo img{
-      width: 40px;
-      height: 40px; 
+.footerCompanyLogo .footerIconsBox i{
+      font-size: 15px;
+      padding: 13px;
+      margin-top: 20px;
+      color: white;
+      background: #3e3b3b;
 }
 
-.footerCompanyLogo h2{
-  font-family: $baseFont;
-  font-size: 32px;
+.footerCompanyLogo .footerCompanyWidget p{
+  font-size: 22px;
   color: #ffffff;
   margin: 0;
-  margin-left: 10px;
 }
 
-.footerCompanyLogo span{
-  color: $secondary;
+.footerCompanyInfoBox p{
+      font-size: 22px;
+      color: #ffffff;
+      margin: 0;
 }
+
+.footerCompanyInfoBox h5{
+      font-size: 12px;
+      color: #ffffff;
+      margin-top: 13px;
+}
+
+//.footerCompanyLogo span{
+//  color: $secondary;
+//}
 
 .footerCompanyLogo h3{
-  font-family: $tertiaryFont;
-  font-size: 16px;
-  color: #b1afaf;
-  margin: 0;
-  margin-left: 10px;
+      font-family: $tertiaryFont;
+      font-size: 14px;
+      color: #ffffff;
+      margin: 0;
+      margin-top: 11px;
+
 }
 
 .footerCompanyLogo p{
@@ -88,129 +103,56 @@ button.footerEmailButton{
       left: 420px;
 }
 
-i.footerEmailArrow{
-      font-size: 18px;
-      color: #ffffff;
+.footerNewsText{
+      display: flex;
+      flex-wrap: nowrap;
 }
 
 input[type="text"] {
-      width: 350px;
-      height: 50px;
-      background: #424141;
+      width: 245px;
+      height: 38px;
+      background: #ffffff;
       border: 1px solid #424141;
-      padding-left: 40px;
-      font-size: 16px;
+      padding-left: 10px;
+      font-size: 14px;
       font-family: $tertiaryFont;
-      position: relative;
+      //position: relative;
+      margin-top: 12px;
 }
 
 input[placeholder="Your email"]{
       font-family: $tertiaryFont;
       color: #ffffff;
 }
-// FOOTER FOCUS BOX STYLE ====
-.footerCompanyInfoBox{
-      display: flex;
+
+input[type="submit"] {
+      color: #ffffff;
+      width: 100px;
+      height: 38px;
+      background: red;
+      border: 1px solid red;
+      //padding-left: 40px;
+      font-size: 14px;
+      font-family: $tertiaryFont;
+      //position: absolute;
+      right: 8%;
+      margin-top: 12px;
 }
 
-.footerFocusBox{
-      display: flex;
-      align-self: flex-start;
-      padding-left: 60px;
-}
+nav.footerFocusNav ul{
+      width: 100%;
+      padding: 0px;
 
-.footerFocusBox p{
-      font-family: $secondaryFont;
-      font-size: 18px;
-      color:  #ffffff;
-}
-
-.footerFocusNav ul{
-   padding: 0;   
 }
 
 .footerFocusNav ul li{
       list-style: none;
+      color: white;
+      font-size: 14px;
+      padding: 0px;
+      margin-bottom: 13px;
 }
 
-.footerFocusNav ul a{
-      color: #b1afaf;
-      font-size: 16px;
-      font-family: $tertiaryFont;
-      text-decoration: none;
-      line-height: 40px;
-}
-// FOOTER NEWS BOX ===
-.footerNewsTitle p{
-      font-family: $secondaryFont;
-      font-size: 18px;
-      color:  #ffffff; 
-}
-.footerNewsBox p{
-      font-family: $secondaryFont;
-      font-size: 18px;
-      color:  #ffffff; 
-}
-.footerNewsText p{
-      font-family: $secondaryFont;
-      font-size: 15px;
-      color: $secondary;
-}
-
-.footerNewsText h4{
-      font-family: $tertiaryFont;
-      font-size: 15px;
-      color: #b1afaf;
-}
-
-button.footerButton{
-      color: $secondary;
-      background: $tertiary;
-      border: 1px solid $tertiary;
-      font-size: 15px;
-}
-
-i.footerArrow{
-      font-size: 12px;
-      color: #ffffff;
-}
-// FOOTER SOCIAL MEDIA BOX STYLE ===
-
-.footerSocialBar i.footerIcon{
-      font-size: 20px;
-      color: #b1afaf;
-      padding: 1%;
-}
-
-// FOOTER DISPLAY CONTAINER STYLE ===
-.footerDisplayBarContainer{
-      background: #313030;
-      display: flex;
-      justify-content: space-around;
-      position: absolute;
-      top: -20px;
-      left: 135px;
-      width: 100%;
-      box-shadow:  0px 36px 0 -13px #424141;
-}
-
-.footerContactBox{
-      display: flex;
-      align-items: center;
-}
-
-.footerContactItems{
-      display: flex;
-}
-
-.footerContactItems img{
-      width: 25px;
-      height: 30px;
-}
-
-.footerContactInfo p{
-      font-family: $secondaryFont;
-      font-size: 15px;
-      color: #ffffff;
-      padding-left: 15px;
+.footerFocusNav ul.second-column{
+      padding-right: 40px;
 }

@@ -1,36 +1,67 @@
 // COMPANY CONTENT STYLES ===
-section.companyContentImageContainer{
-      background-image: url(../assets/Ellipse_3.png);
-      background-repeat: no-repeat;
-      background-position: -10% 20%;
-}
-
 .companyContentBox.leftSide{
-      float: left;
-      width: calc(60% - 4%);
-      padding-top: 80px;
+      margin-top: 100px;
+      margin-bottom: 70px;
+      padding: 30px;
       line-height: 1.7;
+      background: $primary;
 }
 
-.companyContentBox.rightSide{
-      float: left;
-      width: 40%;
-      min-height: 450px;
-      background: $primary;
-      padding: 20px 60px;
-      line-height: 1.7;
-      margin-top: 160px;
+.search-dropdown{
+      display: block;
+      font-size: 16px;
+      color: darkgray;
+      line-height: 1.3;
+      padding: .6em 1.4em .5em .8em;
+      //width: 100%;
+      box-sizing: border-box;
+      margin: 10px;
+      border: 1px solid lightgrey;
+      box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+      border-radius: .5em;
+      appearance: none;
+      background-color: #fff;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+      background-repeat: no-repeat, repeat;
+      background-position: right .7em top 50%, 0 0;
+      background-size: .65em auto, 100%;
 }
-.companyContentContainer{
-      position: relative;
+
+.form-button{
+      text-decoration: none;
+      background-color: red;
+      display: inline-block;
+      font-size: 12px;
+      color: #ffffff;
+      text-align: center;
+      border: none;
+      border-radius: 8px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      padding: 13px;
+      text-transform: uppercase;
+
 }
-.companyContentCircle img{
-      width: 190px;
-      height: 280px;
-      position: absolute;
-      top: 0;
-      z-index: 1;
+
+.form-button:hover{
+      background-color: #ffffff;
+      color: red;
+      border: 2px solid red;
 }
+
+.form-select-container{
+      display: flex;
+      //flex-direction: column;
+      flex-grow: column wrap;
+}
+
+.form-select-box{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+}
+
 .companyContentBox p{
       font-family: $baseFont;
       font-size: 20px;
@@ -68,131 +99,139 @@ i.secondaryArrow{
       font-size: 25px;
       color: $tertiary;
 }
-// SERVICE CONTAINER STYLE ===
-section.serviceContainer{
-      // width: 100%;
-      // background: $primary;
-      margin-top: 140px;
-      background-image: url(../assets/big_rectangle_circle.jpg);
-      background-repeat: no-repeat;
-}
+
 // MOTO CONTAINER STYLE ===
-section.mottoContainer{
-      max-width: 370px;
-      min-height: 310px;
-      position: relative;
+.mottoBox{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+
 }
 
-.mottoBox p{
-      font-family: $baseFont;
-      font-size: 20px;
-      color: $tertiary;
+.mottoBoxText p{
+      font-size: 35px;
       text-align: center;
-      margin-top: 100px;
-      z-index: 100;
-      position: relative;
-      top: 113px;
+      margin: 0px;
+}
+.mottoBox button.product-button{
+      text-decoration: none;
+      background-color: #f5f4f4;
+      display: inline-block;
+      font-size: 12px;
+      color: darkgray;
+      padding: 10px 32px;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
 }
 
-.mottoBox h2{
-      font-family: $baseFont;
-      font-size: 50px;
-      color: $secondary;
+.mottoBox button.product-view{
+      text-decoration: none;
+      background-color: #f5f4f4;
+      display: inline-block;
+      font-size: 12px;
+      color: darkgray;
+      padding:10px 10px;
       text-align: center;
-      position: relative;
-      z-index: 50;
-      margin-top: 108px;
-}
-.mottoBox h2::after{
-      content: "";
-      width: 88px;
-      height: 2px;
-      background: $secondary;
-      position: absolute;
-      top: 100px;
-      left: 142px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 4px;
+
+
 }
 
-.mottoBox p.bigCapital{
-      font-family: $baseFont;
-      font-size: 275px;
-      color: #ffffff;
-      margin: 0;
-      text-align: center;
-      position: absolute;
-      top: 0px;
-      left: 110px;
-      z-index: 10;
-}
-
-.mottoBox p.bigCapitalP{
-      font-family: $baseFont;
-      font-size: 275px;
-      color:#f6f3f3;
-      margin: 0;
-      text-align: center;
-      position: absolute;
-      top: 0px;
-      left: 110px;
-      z-index: 5;
-}
-
-.mottoBox p.bigCapitalB{
-      font-family: $baseFont;
-      font-size: 275px;
-      color:#f6f3f3;
-      margin: 0;
-      text-align: center;
-      position: absolute;
-      top: 0px;
-      left: 110px;
-      z-index: 5;
-}
 // SERVICE GALLERY BOX STYLE ===
 .serviceGalleryContainer{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      padding-bottom: 150px;
+      //padding-bottom: 150px;
 }
 
 .serviceGalleryBox{
-      background: #ffffff;
+      background: white;
       width: 32%;
-      padding: 40px;
-      min-height: 30%;
-      display: flex;
+      //padding: 40px;
+      //min-height: 30%;
+      //display: flex;
       flex-direction: column;
       justify-content: space-around;
       margin-bottom: 40px;
       line-height: 2;
+      border-radius: 5px;
+      border: 2px solid$primary;
       // flex: 1 0 390px;
 }
 
-.serviceGalleryItems{
-      flex: display;
-      align-self: center;
-}
-
-.serviceGalleryBox img{
-      width: 50px;
-      height: 50px;
+.serviceGalleryImg{
       display: flex;
+
 }
 
-.serviceGalleryBox h4{
+.serviceGalleryItems{
+      display: flex;
+
+}
+
+.contentGalleryContainer{
+      display: flex;
+      flex-flow: row;
+      width: 100%;
+      //align-content: flex-start;
+}
+
+.contentGalleryBox{
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+}
+
+.serviceGalleryBox .serviceGalleryItems h4{
       font-family: $tertiaryFont;
-      font-size: 22px;
+      font-size: 18px;
       color: $tertiary;
-      text-align: center;
+      padding-left: 5%;
+      width: 100%;
 }
 
 .serviceGalleryBox p{
       font-family: $tertiaryFont;
-      font-size: 16px;
+      font-size: 14px;
       color: $tertiary;
-      text-align: center;
 }
+
+.productItems{
+      position: relative;
+      width: 100%;
+}
+
+.serviceGalleryBox h3{
+      font-family: $tertiaryFont;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      bottom: -12px;
+      left: 12px;
+}
+
+.serviceGalleryItems img.product-icon{
+      width: 30px;
+      height: 30px;
+      display: flex;
+      margin-left: 18%;
+      margin-bottom: 5%;
+      margin-top: 18%;
+}
+
+.serviceGalleryBox img.product-ribbon{
+      position: absolute;
+      top: 0;
+      width: 150px;
+      height: 150px;
+}
+
 // SERVICE CONTENT CONTAINER ===
 .serviceContentBox.leftSide{
       width: 60%;
@@ -278,25 +317,53 @@ p.serviceContentColor{
       font-size: 16px;
       color: $tertiary;
 }
+
+.pageViewBox{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 100px;
+
+}
+
+.pageViewBox button.page-view{
+      text-decoration: none;
+      background-color: #f5f4f4;
+      display: inline-block;
+      font-size: 12px;
+      color: darkgray;
+      padding:15px 15px;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
+      margin-right: 4px;
+}
+
 // DATA GALLERY STYLE ===
 section.dataGalleryContainer{
-      background: $tertiary;
+      background: $primary;
       display: flex;
       justify-content: space-between;
-      margin-top: 200px;
       flex-wrap: wrap;
+      margin-bottom: 100px;
 }
 
 .dataGalleryBox{
-      border: 1px solid#37393b;
       width: 25%;
+      height: 100%;
       display: flex;
+      flex-direction: column;
+      justify-content: center;
 }
 
 .dataGalleryItems{
+      display: flex;
+      align-items: center;
       flex-direction: column;
-      padding: 65px 55px;
+      padding-top: 15%;
+      padding-bottom: 15%;
 }
+
 .dataGalleryBox img{
       width: 50px;
       height: 50px;
@@ -305,7 +372,8 @@ section.dataGalleryContainer{
 .dataGalleryBox h4{
       font-family: $tertiaryFont;
       font-size: 22px;
-      color: #ffffff;
+      color: darkgrey;
+      margin: 0;
 }
 
 .dataGalleryBox p{
@@ -313,6 +381,7 @@ section.dataGalleryContainer{
       font-weight: 700;
       font-size: 40px;
       color: $secondary;
+      margin: 0;
 }
 // MOTTON CONTAINER STYLING ===
 // MOTTO TEXT CONTAINER STYLING ===
@@ -412,11 +481,12 @@ section.consultantContainer{
 .resultGalleryContainer{
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
 }
 .resultGalleryBox{
       width: 33.33%;
-      padding: 1%;
-      margin-top: 100px;
+      margin: 5%;
+      border: 1px solid $primary;
 }
 
 .resultGalleryContent p{
@@ -424,6 +494,7 @@ section.consultantContainer{
       font-size: 18px;
       color: $secondary;
       line-height: 2;
+      text-align: center;
 }
 
 .resultGalleryContent h4{
@@ -431,13 +502,56 @@ section.consultantContainer{
       font-size: 16px;
       color: $tertiary;
       line-height: 2;
+      text-align: center;
+      padding-right: 8%;
+      padding-left: 7%;
 }
 
 .resultGalleryContent h5{
       font-family: $tertiaryFont;
       font-size: 16px;
       color: $secondary;
+      text-align: center;
+      position: relative;
 }
+
+.resultGalleryContent h5::after{
+      content: "";
+      width: 92%;
+      height: 1px;
+      background: lightgray;
+      position: absolute;
+      bottom: 150%;
+      left: 4%;
+}
+
+.resultGalleryButton{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 135px;
+}
+
+.resultGalleryButton button{
+      text-decoration: none;
+      background-color: #ffffff;
+      display: inline-block;
+      font-size: 12px;
+      color: red;
+      text-align: center;
+      border: 2px solid red;
+      border-radius: 4px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      padding: 15px 30px;
+      text-transform: uppercase;
+}
+
+.resultGalleryButton button:hover {
+      color: #ffffff;
+      background-color: red;
+}
+
 // CLIENT CONTAINER STYLE ===
 .clientContainer{
       display: flex;
