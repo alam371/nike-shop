@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c303ceb-a474-43b0-a5e1-103aeafda973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_mediaquery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_mediaquery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +20,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-219">
+                <state relative-caret-position="1470">
                   <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
                 </state>
               </provider>
@@ -126,8 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="23" />
+    <option name="x" value="-49" />
+    <option name="y" value="-909" />
     <option name="width" value="1446" />
     <option name="height" value="877" />
   </component>
@@ -142,6 +136,11 @@
             <path>
               <item name="nike-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="nike-shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nike-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nike-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nike-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -196,15 +195,15 @@
       <workItem from="1568745449115" duration="147000" />
       <workItem from="1568745695482" duration="30035000" />
       <workItem from="1568901386521" duration="6989000" />
-      <workItem from="1568915334406" duration="3588000" />
+      <workItem from="1568915334406" duration="4551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48300000" />
+    <option name="totallyTimeSpent" value="49263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="23" width="1446" height="877" extended-state="1" />
+    <frame x="-49" y="-909" width="1446" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,8 +217,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31719744" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49964914" visible="true" weight="0.31592357" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003509" side_tool="true" weight="0.31592357" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,7 +281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
+        <state relative-caret-position="1470">
           <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
         </state>
       </provider>
