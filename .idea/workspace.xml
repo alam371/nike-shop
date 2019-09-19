@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c303ceb-a474-43b0-a5e1-103aeafda973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1470">
-                  <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+                <state relative-caret-position="245">
+                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -34,7 +35,7 @@
             <entry file="file://$PROJECT_DIR$/styles/components/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="277">
-                  <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+                  <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -43,7 +44,7 @@
             <entry file="file://$PROJECT_DIR$/styles/components/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2100">
-                  <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+                  <caret line="140" selection-start-line="140" selection-end-line="140" />
                 </state>
               </provider>
             </entry>
@@ -52,7 +53,7 @@
             <entry file="file://$PROJECT_DIR$/styles/components/_mediaquery.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -120,8 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-49" />
-    <option name="y" value="-909" />
+    <option name="x" value="85" />
+    <option name="y" value="-1021" />
     <option name="width" value="1446" />
     <option name="height" value="877" />
   </component>
@@ -195,15 +196,16 @@
       <workItem from="1568745449115" duration="147000" />
       <workItem from="1568745695482" duration="30035000" />
       <workItem from="1568901386521" duration="6989000" />
-      <workItem from="1568915334406" duration="4551000" />
+      <workItem from="1568915334406" duration="5013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49263000" />
+    <option name="totallyTimeSpent" value="49725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-49" y="-909" width="1446" height="877" extended-state="0" />
+    <frame x="85" y="-1021" width="1446" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -254,14 +256,14 @@
     <entry file="file://$PROJECT_DIR$/styles/components/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/components/_mediaquery.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -275,14 +277,14 @@
     <entry file="file://$PROJECT_DIR$/styles/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        <state relative-caret-position="245">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
